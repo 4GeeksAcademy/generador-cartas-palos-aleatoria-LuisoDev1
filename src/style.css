@@ -23,11 +23,19 @@ body, html {
     background-repeat: no-repeat;
 }
 
+/* CLASE DEL CONTENEDOR DE LOS INPUTS RANGE*/
+.contenedor-range {
+    border: 2px solid #fff; 
+    border-radius:40px;
+    padding: 5px;
+    gap: 10px;
+}
+
 
 /*CLASE DEL CONTENEDOR DE LA CARTA */
 .contenedor-carta {
-    width: 30%;
-    height: 80%;
+    width: 20%;
+    height: 70%;
     padding: 3px;
     border: 2px solid;
     border-radius: 6px;
