@@ -26,9 +26,12 @@ body, html {
 
 /*CLASE DEL CONTENEDOR DE LA CARTA */
 .contenedor-carta {
-    width: 24%;
+    width: 30%;
     height: 80%;
+    padding: 3px;
+    border: 2px solid;
     border-radius: 6px;
+    margin-top: 20px;
     /*box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1), 0 10px 20px rgba(255, 255, 255, 0.15), 0 15px 30px rgba(255, 255, 255, 0.2);*/
     transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 15px 15px 30px rgba(0,0,0,0.5); 
@@ -45,11 +48,13 @@ body, html {
     align-items: center;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
+    user-select: none;
 }
 /*clase del palo superior */
 .palo-superior {
     margin-left: 5%;
     font-size: 5em;
+    user-select: none;
 }
 
 
@@ -61,13 +66,15 @@ body, html {
     height: 60%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-style: normal;
-    font-weight: 100;
-    font-family: 'Times New Roman', Times, serif;
+    align-items: center; 
+    user-select: none;
 }
 .cuerpo-numero {
-    font-size: 14em;
+    font-size: 9em;
+    user-select: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 30;
 }
 
 
@@ -88,6 +95,7 @@ body, html {
     margin-right: 5%;
     transform: rotate(180deg);
     font-size: 5em;
+    user-select: none;
 }
 
 .palo-pica-corazon {
